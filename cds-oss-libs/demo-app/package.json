@@ -1,0 +1,16 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo SAP CAP application for testing cds-validate and cds-agents",
+  "scripts": {
+    "start": "cds serve",
+    "watch": "cds watch"
+  },
+  "dependencies": {
+    "cds-validate": "workspace:*"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": ">=7.0.0"
+  }
+}

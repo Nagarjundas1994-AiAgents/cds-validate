@@ -1,0 +1,13 @@
+{
+  "name": "cds-oss-libs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for open-source SAP CAP libraries",
+  "scripts": {
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint"
+  },
+  "keywords": ["sap", "cap", "cds"],
+  "license": "MIT"
+}
